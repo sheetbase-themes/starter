@@ -7,7 +7,7 @@ import appRoutes from './routes/index';
  */
 
 const Sheetbase = sheetbase({
-    allowMethodsWhenDoGet: true, // for dev, should remove when in production
+  allowMethodsWhenDoGet: true, // for dev, should remove when in production
 });
 
 /**

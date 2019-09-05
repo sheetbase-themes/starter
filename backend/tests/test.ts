@@ -8,14 +8,14 @@ const browser = new Browser(App);
 
 describe('Home routes', () => {
 
-    it('GET /', () => {
-        const { body } = browser.get('/');
-        expect(body).to.contain('Sheetbase Backend');
-    });
+  it('GET /', () => {
+    const { body } = browser.get('/');
+    expect(body).to.contain('Sheetbase Backend');
+  });
 
-    it('POST /', () => {
-        const { body } = browser.post('/');
-        expect(body.data).to.eql({ title: 'Sheetbase Backend' });
-    });
+  it('POST /', () => {
+    const { body } = browser.post('/');
+    expect(body.data).to.eql({ title: 'Sheetbase Backend' });
+  });
 
 });
