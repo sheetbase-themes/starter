@@ -1,15 +1,15 @@
 {
-	"name": "@sheetbase-themes/blank-angular",
+	"name": "@sheetbase-themes/starter",
 	"version": "1.0.0",
-	"description": "The Blank starter theme based on Angular + Ionic.",
+	"description": "The Sheetbase starter theme.",
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.dev",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sheetbase-themes/blank-angular.git"
+		"url": "https://github.com/sheetbase-themes/starter.git"
 	},
 	"bugs": {
-		"url": "https://github.com/sheetbase-themes/blank-angular/issues"
+		"url": "https://github.com/sheetbase-themes/starter/issues"
 	}
 }

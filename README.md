@@ -1,6 +1,6 @@
-# Sheetbase Theme: Blank Angular
+# Sheetbase Theme: Starter
 
-The Blank starter theme based on Angular + Ionic.
+The Sheetbase starter theme.
 
 <!-- block:header -->
 
@@ -8,44 +8,33 @@ The Blank starter theme based on Angular + Ionic.
 
 <!-- /block:header -->
 
-## Preview
+## Getting started
 
-<https://sheetbase-themes.github.io/blank-angular/>
+Using the [@sheetbase/cli](https://github.com/sheetbase/cli):
 
-## Get started
+```sh
+sheetbase start <project_name>
+```
 
-### Using the CLI
-
-- Start a project: $ `sheetbase start <project_name> blank-angular`
-
-### Manually
-
-- Clone this repo.
-- Install backend dependecies: $ `sheetbase backend install`.
-- Install frontend dependecies: $ `sheetbase frontend install`.
-
-Done! Now, start building an awesome app. Need help, see the docs: <https://sheetbase.dev/docs>.
+Done! Now, start building something great. Need help, see [the docs](https://sheetbase.dev/docs).
 
 ## Workflow
 
+A Sheetbase theme contains two major parts: the backend (server) and the frontend (client).
+
 ### Backend
 
-Backend code lives in **backend/** folder.
+The backend code lives in **backend/** folder.
 
-- Test: $ `sheetbase backend test`
-- Build: $ `sheetbase backend build`
-- Push code to server: $ `sheetbase backend push`
-- Deploy: $ `sheetbase backend deploy`
+- Lint: `sheetbase backend lint`
+- Test: `sheetbase backend test`
+- Build: `sheetbase backend build`
+- Push code: `sheetbase backend push`
+- Deploy: `sheetbase backend deploy`
 
 ### Frontend
 
-Frontend code lives in **frontend/** folder.
-
-- Test: $ `sheetbase frontend test`
-- E2E: $ `sheetbase frontend e2e`
-- Build: $ `sheetbase frontend build`
-- Prerender: $ `sheetbase frontend prerender`
-- Deploy: $ `sheetbase frontend deploy`
+Provide your frontend. The frontend code lives in **frontend/** folder.
 
 ## Documentation
 
@@ -53,12 +42,12 @@ Read more: <https://sheetbase.dev/docs>.
 
 ## License
 
-This theme is released under the [MIT][license_url] license.
+This Sheetbase theme is released under the [MIT][license_url] license.
 
 <!-- block:footer -->
 
 [license_badge]: https://img.shields.io/github/license/mashape/apistatus.svg
-[license_url]: https://github.com/sheetbase-themes/blank-angular/blob/master/LICENSE
+[license_url]: https://github.com/sheetbase-themes/starter/blob/master/LICENSE
 [badge_patreon]: https://lamnhan.github.io/assets/images/badges/patreon.svg
 [patreon_url]: https://www.patreon.com/lamnhan
 [badge_paypal_donate]: https://lamnhan.github.io/assets/images/badges/paypal_donate.svg
