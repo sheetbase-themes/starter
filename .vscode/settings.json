@@ -9,7 +9,7 @@
     "backend/dist": true,
     "backend/deploy": true,
 
-		"frontend/www": true,
-		"frontend/www-prod": true
+    "frontend/www": true,
+    "frontend/www-prod": true
   }
 }

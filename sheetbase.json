@@ -1,13 +1,3 @@
 {
-	"projectId": "106ikJCKcfDhyJFtEU62peytBVYjGCe4q",
-	"configs": {
-		"backend": {},
-		"frontend": {
-			"backendUrl": "https://script.google.com/macros/s/AKfycbxaiKoJp0w1-0RFoGGFG2CA0XRrunSXjiH5FZDWGUsFSfFWcdlEH9szDIsxOXUC6YsJAw/exec"
-		}
-	},
-	"configMaps": {
-		"backend": [],
-		"frontend": ["backendUrl"]
-	}
+	"projectId": ""
 }

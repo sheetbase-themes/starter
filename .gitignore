@@ -1,15 +1,17 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-# Node modules
+# Modules
 node_modules/
 
-# Local Google creds
+# Test
+.nyc_output/
+coverage/
+
+# Google creds
 .googlerc.json
 
 # Backend
-backend/.nyc_output/
-backend/coverage/
 backend/build/
 backend/dist/
 backend/deploy/
