@@ -1,4 +1,7 @@
 {
+  "linterOptions": {
+    "exclude": ["./src/sheetbase.config.ts"]
+  },
   "rules": {
     "array-type": [
       true,
